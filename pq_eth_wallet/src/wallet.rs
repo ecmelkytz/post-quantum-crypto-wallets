@@ -1,9 +1,9 @@
 use anyhow::Result;
 use std::{fs::File, str::FromStr, io::BufReader};
-use pqcrypto_dilithium::dilithium2::*;
-use pqcrypto_traits::sign::{PublicKey as PublicKeyTrait, SecretKey as SecretKeyTrait};
 use serde::{Serialize, Deserialize};
 use serde_json::{json, Value};
+use pqcrypto_dilithium::dilithium2::*;
+use pqcrypto_traits::sign::{PublicKey as PublicKeyTrait, SecretKey as SecretKeyTrait};
 use web3::{
   signing::keccak256,
   transports::ws::WebSocket,
