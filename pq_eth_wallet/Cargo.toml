@@ -10,7 +10,6 @@ hex="0.4.3"
 pqcrypto-dilithium = "0.4.6"
 pqcrypto-traits = "0.3.4"
 serde = { version = "1.0", features = ["derive", "rc"] }
-serde-big-array = "0.5.1"
 serde_json = "1.0"
 tokio = { version= "1", features = ["full"] }
 web3 = "0.17.0"
