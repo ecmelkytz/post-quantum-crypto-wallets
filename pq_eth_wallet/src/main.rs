@@ -16,6 +16,7 @@ async fn main() -> Result<()> {
   let balance = wallet.get_balance(&web3_connect).await?;
 
   println!("Block number: {}", &block_number);
+  println!("Address: {}", &wallet.address);
   println!("Wallet balance: {} Sepolia ETH", &balance); 
 
   Ok(())
